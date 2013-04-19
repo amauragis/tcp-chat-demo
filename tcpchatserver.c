@@ -31,7 +31,7 @@ main(int argc, char **argv) {
     
     //if(fork() == 0)
     //{
-    while ( read(conn, &ch, 1) == 1) {putchar(ch)};
+    while ( read(conn, &ch, 1) == 1) {putchar(ch);}
         putchar('\n');
     //}
 }
